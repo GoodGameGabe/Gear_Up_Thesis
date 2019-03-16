@@ -9,11 +9,19 @@ export class Home extends React.Component {
 		return (
 			<div className="text-center mt-5">
 				<h1>GEAR UP</h1>
+<<<<<<< HEAD
 
 				<p>Daphness</p>
 
 				<p> SAL </p>
 
+=======
+<<<<<<< HEAD
+				<p> SAL </p>
+=======
+				<p>Gabe was Here</p>
+>>>>>>> 96a32834c0caad6c98faad064c919c0fae83ab1c
+>>>>>>> a80dfa9d4fdb183d65649fb0ddd9652ae903ed89
 			</div>
 		);
 	}
