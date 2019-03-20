@@ -4,7 +4,16 @@ export class Cart extends React.Component {
 	render() {
 		return (	
 			<div className="container-fluid row">
-				<h1>CART</h1>
+				
+				{/* Left Side */}
+				<div className="col-6">
+						
+				</div>
+				
+				{/* Right Side */}
+				<div className="col-6">
+					
+				</div>
 			</div>
 
 		);

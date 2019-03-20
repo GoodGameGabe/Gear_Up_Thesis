@@ -19,9 +19,10 @@ import { Cover } from "./views/cover.jsx";
 
 import Store from "./store/appContext.jsx";
 
+import { BundleList } from "./Gabe/component/BundleList.jsx";
 import { Navbar } from "./Daph/component/navbar.jsx";
-import { Card } from "./Daph/component/Card.jsx";
-import { Jumbotron } from "./Daph/component/Jumbotron.jsx";
+import { Card } from "./Daph/component/card.jsx";
+import { Jumbotron } from "./Daph/component/jumbotron.jsx";
 
 */
 
