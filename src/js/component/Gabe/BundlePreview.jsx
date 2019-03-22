@@ -1,8 +1,8 @@
 import React from "react";
-import { Jumbotron } from "./Daph/component/Jumbotron.jsx";
+import { Jumbotron } from "../components/jumbotron.jsx";
 
 
-export class Bundle extends React.Component {
+export class BundlePreview extends React.Component {
 	render() {
 		return (	
 			<div className="container-fluid row">
@@ -29,7 +29,7 @@ export class Bundle extends React.Component {
 				
 				{/* Bundle List */}
 				<div className="col-6">
-				
+				<BundleList />
 				</div>
 			</div>
 

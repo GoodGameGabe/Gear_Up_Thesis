@@ -11,9 +11,7 @@ export class Home extends React.Component {
 				<p> SAL </p>
 
 				<p>Gabe was Here</p>
-
 			</div>
 		);
 	}
 }
-
