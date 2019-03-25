@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Store from "./store/appContext.jsx";
 
 import { Home } from "./views/Sal/Home.jsx";
-import { Explore } from "./views/Sal/ExplorePage.jsx";
+import { ExplorePage } from "./views/Sal/ExplorePage.jsx";
 import { Login } from "./views/Sal/login.jsx";
 
 import { Article } from "./views/Daph/article.jsx";
@@ -29,6 +29,10 @@ class Layout extends React.Component {
 						<Route path="/create" component={Create} />
 						<Route path="/cart" component={Cart} />
 						<Route path="/checkout" component={Checkout} />
+						<Route path="/explorepage" component={ExplorePage} />
+						<Route path="/login" component={Login} />
+						<Route path="/article" component={Article} />
+						<Route path="/bundle" component={Bundle} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 				</BrowserRouter>
