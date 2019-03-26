@@ -27,19 +27,13 @@ export const NavBar = () => {
 						Categories
 					</a>
 					<a className="nav-item nav-link" href="#">
-						Fashion
+						Explore
 					</a>
 					<a className="nav-item nav-link" href="#">
-						Portrait
+						Create
 					</a>
 					<a className="nav-item nav-link" href="#">
-						Landscape
-					</a>
-					<a className="nav-item nav-link" href="#">
-						Sports
-					</a>
-					<a className="nav-item nav-link" href="#">
-						Wedding
+						Login
 					</a>
 				</div>
 			</div>
