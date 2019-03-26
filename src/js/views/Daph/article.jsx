@@ -1,6 +1,6 @@
 import React from "react";
 
-render (){
+const article = () => {
   return (
 		<div className="card size">
 			<img
@@ -30,4 +30,6 @@ render (){
 			</div>
 		</div>
 	);  
-}
+};
+
+export default article;
