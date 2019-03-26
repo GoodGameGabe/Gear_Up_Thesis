@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron } from "../../component/jumbotron.jsx";
+import { Jumbotron } from "../../component/Sal/Components/jumbotron.jsx";
 import { BundleList } from "../../component/Gabe/BundleList.jsx";
 
 export class Bundle extends React.Component {

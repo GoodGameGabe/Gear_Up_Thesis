@@ -14,16 +14,15 @@ import { Create } from "./views/Gabe/Create.jsx";
 import { Bundle } from "./views/Gabe/Bundle.jsx";
 
 import { BundleList } from "./component/Gabe/BundleList.jsx";
-import { Navbar } from "./component/Sal/navbar.jsx";
-import { Card } from "./component/Sal/card.jsx";
-import { Jumbotron } from "./component/Sal/jumbotron.jsx";
-
+import { NavBar } from "./component/Sal/Components/navbar.jsx";
+import { Card } from "./component/Sal/Components/card.jsx";
+import { Jumbotron } from "./component/Sal/Components/jumbotron.jsx";
 class Layout extends React.Component {
 	render() {
 		return (
 			<div>
 				<BrowserRouter>
-					<Navbar />
+					<NavBar />
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/create" component={Create} />
