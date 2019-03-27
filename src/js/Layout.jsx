@@ -2,11 +2,13 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Store from "./store/appContext.jsx";
 
-import { Home } from "./views/Home.jsx";
-/*import { Explore } from "./Sal/views/explore.jsx";
+import { Home } from "./views/Sal/Home.jsx";
+/*import { Explore } from "./Sal/views/ExplorePage.jsx";
 import { Login } from "./Sal/views/login.jsx";
 
-import { Article } from "./Daph/views/article.jsx"; */
+import { Category } from "./Daph/views/categories.jsx"; 
+import { Article } from "./Daph/views/article.jsx"; 
+*/
 
 import { Cart } from "./views/Gabe/Cart.jsx";
 import { Checkout } from "./views/Gabe/Checkout.jsx";
