@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Context } from "../../store/appContext.jsx";
 
-export class Create extends React.Component {
+export default class Create extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid row">

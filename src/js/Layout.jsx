@@ -12,7 +12,7 @@ import { Cart } from "./views/Gabe/Cart.jsx";
 import { Checkout } from "./views/Gabe/Checkout.jsx";
 import { Create } from "./views/Gabe/Create.jsx";
 import { Bundle } from "./views/Gabe/Bundle.jsx";
-
+import { categories } from "./views/Daph/categories.jsx";
 import { BundleList } from "./component/Gabe/BundleList.jsx";
 import { NavBar } from "./component/Sal/Components/navbar.jsx";
 import { Card } from "./component/Sal/Components/card.jsx";
@@ -25,8 +25,9 @@ class Layout extends React.Component {
 					<NavBar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/create" component={Create} />
+						<Route path="/Create" component={Create} />
 						<Route path="/cart" component={Cart} />
+						<Route path="/categories" component={categories} />
 						<Route path="/checkout" component={Checkout} />
 						<Route path="/explorepage" component={ExplorePage} />
 						<Route path="/login" component={Login} />

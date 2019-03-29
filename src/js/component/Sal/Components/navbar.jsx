@@ -3,8 +3,8 @@ import React from "react";
 export const NavBar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg  bg-dark">
-			<a className="navbar-brand" href="#">
-				Start Bootstrap
+			<a className="navbar-brand" href="/">
+				Gear Up
 			</a>
 			<button
 				className="navbar-toggler"
@@ -20,19 +20,19 @@ export const NavBar = () => {
 				className="collapse navbar-collapse open"
 				id="navbarNavAltMarkup">
 				<div className="navbar-nav">
-					<a className="nav-item nav-link active" href="#">
+					<a className="nav-item nav-link active" href="/">
 						Home <span className="sr-only">(current)</span>
 					</a>
-					<a className="nav-item nav-link" href="#">
+					<a className="nav-item nav-link" href="/categories">
 						Categories
 					</a>
-					<a className="nav-item nav-link" href="#">
+					<a className="nav-item nav-link" href="/explorepage">
 						Explore
 					</a>
-					<a className="nav-item nav-link" href="#">
+					<a className="nav-item nav-link" href="/create">
 						Create
 					</a>
-					<a className="nav-item nav-link" href="#">
+					<a className="nav-item nav-link" href="/login">
 						Login
 					</a>
 				</div>
