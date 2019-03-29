@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Store from "./store/appContext.jsx";
 
 import { Home } from "./views/Sal/Home.jsx";
+
 import { ExplorePage } from "./views/Sal/ExplorePage.jsx";
 import { Login } from "./views/Sal/login.jsx";
 
