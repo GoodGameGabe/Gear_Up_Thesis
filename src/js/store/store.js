@@ -4,9 +4,9 @@ const getState = ({ getStore, setStore, getActions }) => {
 			//Your data structures, A.K.A Entities
 			bundleList: [],
 
-			users: [],
+			usersList: [],
 
-			articles: []
+			articlesList: []
 		},
 		actions: {}
 	};

@@ -28,7 +28,6 @@ class Layout extends React.Component {
 						<Route exact path="/" component={Home} />
 						<Route path="/Create" component={Create} />
 						<Route path="/cart" component={Cart} />
-						<Route path="/categories" component={categories} />
 						<Route path="/checkout" component={Checkout} />
 						<Route path="/explorepage" component={ExplorePage} />
 						<Route path="/login" component={Login} />
