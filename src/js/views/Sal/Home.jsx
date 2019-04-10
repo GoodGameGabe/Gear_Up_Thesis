@@ -8,18 +8,6 @@ export class Home extends React.Component {
 					<Jumbotron />
 				</div>
 				<div className="text-left mt-5" />
-				<form>
-					<div className="form-group">
-						<label htmlFor="" />
-						<input
-							type="email"
-							className="form-control"
-							id="exampleInputEmail1"
-							aria-describedby="emailHelp"
-							placeholder="What do you want to do?"
-						/>
-					</div>
-				</form>
 				<div />
 			</div>
 		);
