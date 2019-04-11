@@ -1,19 +1,35 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Context } from "../../store/appContext.jsx";
+import ItemCard from "./BundleList.jsx";
 
 export class BundleList extends React.Component {
 	render() {
 		return (
-			<ul>
-				<li>
-					<div>
-						<img src={this.props.image} />
-						<h4>{this.props.name}</h4>
-						<p>{this.props.price}</p>
-					</div>
-				</li>
-			</ul>
+			<div>
+				<Context.Consumer>
+					{({ store, actions }) => {
+						window.onload = actions.getContacts;
+						console.log(store.itemList.value);
+						return store.itemList.map((content, index) => {
+							return (
+								<div
+									className="col-12 border pt-2 pb-2 pl-3 pr-3 w-10 mw-100"
+									key={index}>
+									<ItemCard
+										name={content.name}
+										price={content.price}
+										brand={content.brand}
+										vendor={content.vendor}
+										category={content.category}
+										index={index}
+									/>
+								</div>
+							);
+						});
+					}}
+				</Context.Consumer>
+			</div>
 		);
 	}
 }
@@ -21,7 +37,7 @@ export class BundleList extends React.Component {
 BundleList.propTypes = {
 	name: PropTypes.string,
 	image: PropTypes.string,
-	price: PropTypes.number
+	price: PropTypes.string
 };
 
 BundleList.defaultProps = {

@@ -26,7 +26,7 @@ class Layout extends React.Component {
 					<NavBar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/Create" component={Create} />
+						<Route path="/create" component={Create} />
 						<Route path="/cart" component={Cart} />
 						<Route path="/checkout" component={Checkout} />
 						<Route path="/explorepage" component={ExplorePage} />

@@ -1,7 +1,6 @@
 import React from "react";
 
 import { SetBundle } from "../../component/Gabe/SetBundle.jsx";
-import { SetProvider } from "../../component/Gabe/SetProvider.jsx";
 import { SetFinal } from "../../component/Gabe/SetFinal.jsx";
 
 import { Link } from "react-router-dom";
@@ -14,9 +13,6 @@ export default class Create extends React.Component {
 			<div className="container-fluid row">
 				<nav>
 					<ul>
-						<li>
-							<SetProvider />
-						</li>
 						<li>
 							<SetBundle />
 						</li>

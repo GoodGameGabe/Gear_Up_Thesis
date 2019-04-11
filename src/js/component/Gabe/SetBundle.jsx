@@ -6,6 +6,7 @@ export class Home extends React.Component {
 		return (
 			<div className="container-fluid row">
 				<h1>SET BUNDLE</h1>
+				<div>SEARCH BAER</div>
 			</div>
 		);
 	}
