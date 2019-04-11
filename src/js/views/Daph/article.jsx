@@ -5,7 +5,9 @@ export class Article extends React.Component {
 		return (
 			<div ClassName="container">
 				<div className="jumbotron">
-					<h1 className="display-4">Hello, world!</h1>
+					<h1 className="display-4">
+						<b>Let&#39;s GearUp!</b>
+					</h1>
 					<p className="lead">
 						Lorem ipsum dolor sit amet, consectetur adipisicing
 						elit. Ipsa, ipsam, eligendi, in quo sunt possimus non
@@ -21,7 +23,7 @@ export class Article extends React.Component {
 						Call to Action!
 					</a>
 				</div>
-				<div className="d-flex flex-row lineup">
+				<div className="d-flex flex-row lineup color">
 					<div className="card size resized">
 						<img
 							className="card-img-top"
@@ -92,29 +94,29 @@ export class Article extends React.Component {
 					</div>
 				</div>
 				<div className="selector center">
-					<h3>Click format to see recommendations</h3>
+					<h3>Click button to display options</h3>
 				</div>
 				<ul className="nav nav-tabs d-flex justify-content-around">
 					<li className="active">
 						<a data-toggle="tab" href="#photo">
-							Photo
+							<button
+								type="button"
+								className="btn btn-primary adjust">
+								Budget-Options
+							</button>
 						</a>
 					</li>
 					<div />
 					<li>
-						<a data-toggle="tab" href="#video">
-							Video
-						</a>
+						<a data-toggle="tab" href="#video" />
 					</li>
 				</ul>
 
-				<div className="tab-content">
+				<div className="tab-content active">
 					<div id="photo" className="tab-pane fade in active">
-						<h2>Photo</h2>
-
-						<ul className="nav nav-tabs d-flex justify-content-around">
+						<ul className="nav nav-tabs d-flex justify-content-around ">
 							<li className="active">
-								<a data-toggle="tab" href="#lowbudget">
+								<a data-toggle="tab" href="#lowbudget ">
 									low-budget
 								</a>
 							</li>
