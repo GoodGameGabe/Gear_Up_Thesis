@@ -79,6 +79,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 
 				add: (a_username, a_password, some_cart) => {
+
 					var data = {
 						username: a_username,
 						password: a_password,
@@ -104,6 +105,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 
 				update: (index, a_username, a_password, some_cart) => {
+
 					const store = getStore();
 
 					var data = {
@@ -132,22 +134,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 						})
 						.catch(error => console.error("Error:", error))
 						.finally(() => getActions().user.getAll());
-				},
-
-				logIn: () => {
-					const store = getStore();
-					var tempSession = store.session;
-					const user = "NachotehSupreme";
-					const emailaddress = "newemailwhodis@gmail.com";
-					tempSession.push({
-						username: user,
-						email: emailaddress
-					});
-
-					setStore({ session: tempSession });
-				},
-
-				logOut: () => {}
+				}
 			},
 
 			bundle: {
@@ -214,6 +201,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 
 				add: (a_title, a_body, a_vendor, some_items) => {
+
 					var data = {
 						title: a_title,
 						body: a_body,
@@ -240,6 +228,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 
 				update: (index, a_title, a_body, a_vendor, some_items) => {
+
 					const store = getStore();
 
 					var data = {
@@ -494,13 +483,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 						.finally(() => getActions().article.getAll());
 				},
 
-				update: (
-					index,
-					a_title,
-					a_picture,
-					some_specs,
-					some_bundles
-				) => {
+				update: (index, a_title, a_picture, some_specs, some_bundles) => {
 					const store = getStore();
 
 					var data = {

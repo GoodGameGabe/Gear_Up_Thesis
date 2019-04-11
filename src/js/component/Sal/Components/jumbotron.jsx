@@ -3,18 +3,22 @@ import React from "react";
 const Jumbotron = () => {
 	return (
 		<div className="jumbotron">
-			<h1 className="display-4">Hello, world!</h1>
-			<p className="lead">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-				ipsam, eligendi, in quo sunt possimus non incidunt odit vero
-				aliquid similique quaerat nam nobis illo aspernatur vitae fugiat
-				numquam repellat.
-			</p>
-			<hr className="mt-4" />
-			<p />
-			<a className="btn btn-primary btn-lg" href="#" role="button">
-				Call to Action!
-			</a>
+			<h1 className="display-4">Gear Up</h1>
+			<div className="form-group">
+				<label htmlFor="" />
+				<input
+					type="email"
+					className="form-control"
+					id="exampleInputEmail1"
+					aria-describedby="emailHelp"
+					placeholder="What do you want to do?"
+				/>
+				<hr className="mt-4" />
+				<p />
+				<a className="btn btn-primary btn-lg" href="#" role="button">
+					Call to Action!
+				</a>
+			</div>
 		</div>
 	);
 };

@@ -1,16 +1,14 @@
 import React from "react";
-
+import Jumbotron from "../../component/Sal/Components/jumbotron.jsx";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
-				<h1>GEAR UP</h1>
-
-				<p>Daphness</p>
-
-				<p> SAL </p>
-
-				<p>Gabe was Here</p>
+			<div>
+				<div className="Jumbotron">
+					<Jumbotron />
+				</div>
+				<div className="text-left mt-5" />
+				<div />
 			</div>
 		);
 	}
