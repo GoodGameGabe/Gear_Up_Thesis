@@ -27,10 +27,12 @@ export const NavBar = () => {
 					<a className="nav-item nav-link" href="/explorepage">
 						Explore
 					</a>
-					<a className="nav-item nav-link" href="/create">
-						Create
+					<a className="nav-item nav-link" href="/cart">
+						Cart
 					</a>
-					<a className="nav-item nav-link" href="/login">
+					<a
+						className="nav-item nav-link justify-content"
+						href="/login">
 						Login
 					</a>
 				</div>

@@ -39,7 +39,7 @@ ItemCard.propTypes = {
 		name: PropTypes.name,
 		category: PropTypes.string,
 		brand: PropTypes.string,
-		price: PropTypes.array,
+		price: PropTypes.func,
 		history: PropTypes.object,
 		picture: PropTypes.string,
 		onDelete: PropTypes.func
@@ -50,7 +50,7 @@ ItemCard.defaultProps = {
 	category: "Enter Category",
 	brand: "Enter Brand Name",
 	vendor: "Amazon",
-	price:"0.00",
+	price:0,
 	pic: "https://svgshare.com/i/65U.svg",
 	onDelete: null
 	

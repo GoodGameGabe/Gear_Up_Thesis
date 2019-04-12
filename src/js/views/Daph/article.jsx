@@ -3,7 +3,7 @@ import React from "react";
 export class Article extends React.Component {
 	render() {
 		return (
-			<div ClassName="container">
+			<div className="container">
 				<div className="jumbotron">
 					<h1 className="display-4">
 						<b>Let&#39;s GearUp!</b>
@@ -27,7 +27,7 @@ export class Article extends React.Component {
 					<div className="card size resized">
 						<img
 							className="card-img-top"
-							src="https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+							src="https://cdn.mos.cms.futurecdn.net/gvQ9NhQP8wbbM32jXy4V3j.jpg"
 							alt="Card image cap"
 						/>
 						<div className="card-body">
@@ -36,7 +36,7 @@ export class Article extends React.Component {
 								Some quick example text to build on the card
 								title
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/spec" className="btn btn-primary">
 								Find out more!
 							</a>
 						</div>
@@ -133,23 +133,106 @@ export class Article extends React.Component {
 						</ul>
 
 						<div className="tab-content">
-							<div
-								id="lowbudget"
-								className="tab-pane fade in active">
-								<h3>Low-Budget</h3>
-								<p>Some content.</p>
-								<div className="card">
+							<div id="lowbudget" className="tab-pane row d-flex">
+								<div className="card bg-dark text-white col-3 m-3">
 									<img
-										className="card-img-top resized"
-										src="https://images.pexels.com/photos/821749/pexels-photo-821749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+										className="card-img-top img-thumbnail m-2"
+										src="https://i.cbc.ca/1.4732241.1530645784!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/liron-gertsman.jpg"
 										alt="Card image cap"
 									/>
 									<div className="card-body">
+										<h4 className="card-title">
+											I Got My Nephew To Do It
+										</h4>
 										<p className="card-text">
-											Some quick example text to build on
-											the card title and make up the bulk
-											of the cards content.
+											{
+												"I was 15 when my uncle handed me a camera and told me to point and shoot. Now here I am a year later"
+											}
 										</p>
+										<ul>
+											<li className="pt-2">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/Canon-Mark-Frame-Digital-Camera/dp/B01KURGS9E">
+													Canon EOS 5D Mark IV Full
+													Frame Digital SLR Camera
+													Body
+												</a>
+											</li>
+											<li className="pt-3">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/Canon-24-70mm-2-8L-Standard-Zoom/dp/B0076BNK30">
+													Canon EF 24-70mm f/2.8L II
+													USM Standard Zoom Lens
+												</a>
+											</li>
+											<li className="pt-3">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/Vanguard-Alta-Pro-263AB-100/dp/B003WKOENO">
+													Vanguard Alta Pro 263AB 100
+													Aluminum Tripod with SBH-100
+													Ball Head for Sony, Nikon,
+													Canon DSLR Cameras, Black
+												</a>
+											</li>
+											<li className="pt-3">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/Rode-Lightweight-Microphone-Integrated-Shockmount/dp/B00GQDORA4">
+													Rode VideoMic GO Light
+													Weight On-Camera Microphone
+												</a>
+											</li>
+										</ul>
+										<div className="d-flex justify-content-center">
+											<button className="btn btn-primary p-2 text-center">
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+								<div className="card bg-dark text-white col-3 m-3">
+									<img
+										className="card-img-top img-thumbnail m-2"
+										src="https://www.rentacross.com/uploads/media/1/camera-on-rent.jpg"
+										alt="Card image cap"
+									/>
+									<div className="card-body">
+										<h4 className="card-title">
+											Quick Nikon Replacement
+										</h4>
+										<p className="card-text">
+											{
+												"I dropped my Nikon and needed a quick replacement for my job"
+											}
+										</p>
+										<ul>
+											<li className="pt-2">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/Nikon-DX-Format-3-5-5-6G-70-300mm-4-5-6-3G/dp/B07GWKDLGT">
+													Nikon D3500 W/ AF-P DX
+													NIKKOR 18-55mm f/3.5-5.6G VR
+													Black
+												</a>
+											</li>
+											<li className="pt-3">
+												<a
+													className="text-white"
+													href="https://www.amazon.com/SanDisk-Ultra-UHS-I-Memory-SDSDUNC-064G-GN6IN/dp/B0143IIP4W">
+													SanDisk 64GB Ultra SDXC
+													UHS-I Memory Card
+													SDSDUNC-064G-GN6IN
+												</a>
+											</li>
+										</ul>
+										<div className="d-flex justify-content-center">
+											<button className="btn btn-primary p-2 text-center">
+												Add to Cart
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -277,7 +360,7 @@ export class Article extends React.Component {
 								className="tab-pane fade in active">
 								<h3>High-Budget</h3>
 								<p>Some content.</p>
-								<div className="card resized">
+								<div className="card bg-dark resized">
 									<img
 										className="card-img-top "
 										src="https://images.pexels.com/photos/753859/pexels-photo-753859.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
